@@ -78,6 +78,7 @@ const movieFromDiv = (movie) => {
         casts.push(a)
     })
 
+
     let types = []
     let t = e('.mov_con').find('p').get(2)
     e(t).find('a').each( (i, type) => {
